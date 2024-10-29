@@ -31,7 +31,7 @@
                     <input type="text" name="notename" id="notename" value="{{ $notepad->notename }}">
                 </div>
                 <div class="field-group">
-                    <label for="description">Description:</label>
+                    <label for="description">Desc.:</label>
                     <input type="text" name="description" id="description" value="{{ $notepad->description }}">
                 </div>
             </div>

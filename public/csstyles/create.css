@@ -26,8 +26,23 @@ body {
     background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
     padding: 20px;
     border-radius: 10px;
-    width: 93%; /* Full width */
+    width: 1300px; /* Full width */
     max-width: 100%;
+
+}
+
+/* Medium screens */
+@media (max-width: 768px) {
+    .note {
+        width: 400px; /* Adjust width for medium screens */
+    }
+}
+
+/* Small screens */
+@media (max-width: 480px) {
+    .note {
+        width: 300px; /* Adjust width for small screens */
+    }
 }
 
 .fields {
@@ -47,7 +62,8 @@ body {
 }
 
 .field-group input {
-    width: 66%;
+    width: 100%;
+    margin-right: 5%;
     padding: 5px;
     background: rgba(255, 255, 255, 0.3);
     color: #fff;
@@ -57,7 +73,7 @@ body {
 }
 
 .content-area {
-    width: 100%;
+    width: 95%;
     margin-bottom: 20px;
 }
 
@@ -67,7 +83,7 @@ body {
 }
 
 .content-area textarea {
-    width: 93%;
+    width: 98%;
     height: 400px;
     padding: 10px;
     background: rgba(255, 255, 255, 0.3);
